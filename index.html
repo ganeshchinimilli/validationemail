@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=" script.js" defer></script>
+    <link rel=" stylesheet" href="style.css">
+</head>
+<body>
+  
+    
+      <div class="container">
+        <div class="header">
+            <h2>Email validation check</h2>
+        </div>
+        <form id="form" class="form">
+       
+            <div class="form-control">
+                <label for="username">Email:</label><br>
+                <input type="email" placeholder="ganesh@gmail.com" id="email"  autocomplete="off" onkeyup="validation()"/><span id="msg" ></span>
+                <br>
+                 <span id="error"></span>
+                 <br>
+               
+                
+            <button id="submit"  >Submit</button>
+            </div>
+           <script>
+               document.getElementById("submit").style.visibility="hidden"
+           </script>
+            
+        </form>
+    </div>
+    
+      
+    
+</body>
+</html>
